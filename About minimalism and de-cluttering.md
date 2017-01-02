@@ -135,11 +135,30 @@ Where else in your life can you remove distraction and focus on the essential?
 - **television channels**
 - **computer** (email, unused software, cluttered files, too complex software for your needs, facebook...)
 
+# Articles
 
+## 15 Clutter Busting Routines for Any Family
 
+[15 Clutter Busting Routines for Any Family](http://www.becomingminimalist.com/15-clutter-busting-routines-for-any-family/) - Joshua Becker
 
-
-
-
+1. **Place junk mail immediately into a recycling bin**
+2. **Store kitchen appliances out of sight** It takes less than 6 seconds to put each appliance away… once you’ve found a home for it that is.
+3. **Remove 10 articles of clothing from your closet today** Have an ongoing box for goodwill ready.
+4. **Fold clean clothes / Remove dirty clothes immediately**
+5. **Kids’ bedroom toys live in the closet** Keep room in the closet, don't fill it up.
+6. **Kids pick up their toys each evening**
+    - teaches responsibility
+    - helps them realize that more isn't always better
+    - home is clean for mom and dad by bedtime
+    - indicates that the day has come to an end
+7. **Fill your containers for the garbage man** Use trash pickup day as an excuse to fill the bins or add another bag.
+8. **Halve decorations**
+9. **Wash dishes right away** Cups, breakfast... at least put them straight in the dishwasher
+10. **Unmix and match cups, bowls, plates, and silverware** Nah. Just... no. Way too boring.
+11. **Keep your desk clear and clean** Work surfaces are shareable, so leave them for the next person to use.
+12. **Store your media out of sight**
+13. **Always leave room in your coat closet** For guests, and so that it's easier to put stuff back in.
+14. **Keep flat surfaces clear** After you clear them the first time, keeping them clean takes daily effort.
+15. **Finish a magazine or newspaper. Process or recycle immediately**
 
 
