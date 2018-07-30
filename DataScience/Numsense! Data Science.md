@@ -129,7 +129,53 @@
 
 ## 2. *k-*Means Clustering
 
+### 2.1 Finding Customer Clusters
+By indentifying common preferences or characteristics, it's possible to sort customers in into groups. Targeted advertising works this way.
 
+***k*-means clustering** answers the questions: How should they be grouped, and in how many groups? *k* is number of clusters identified
+
+### 2.2 Example: Personality Profiles of Movie Fans
+
+- Personality traits based on Facebook survey.
+    + 4 personality traits: *extraversion* (how much they enjoy social interactions), *concientiousness* (how hardworking they are), *emotionality* (how often they get stressed), and *openness* (how receptive to novelty)
+    + paired positive associations: highly *concientious* people tend to be *extroverted*, and *emotional* people tend to be more *open* -> **2-dimensional plot**
+- Personality score then matched with movies 'liked'
+    + *red*: conscientious extraverts like **action and romance**
+    + *blue*: emotional and open people like **avant-garde and fantasy**
+
+**Movie preferences by personality trait combo**
+![Movie preferences by personality trait combo](Numsense/Numsense_k-means-clustering.png)
+
+### 2.3 Defining Clusters
+
+#### How many?
+- How many clusters exist?
+    + As many as necessary to be able to extract meaningful patterns
+    + As little as necessary to ensure the clusters remain clearly distinct
+
+- A useful number of clusters can be determined with a **scree plot**, which plots the amount of scatter within a cluster by number of possible clusters
+
+![Scree plot](Numsense/Numsense_scree-plot.png)
+
+- The *kink* in the scree plot suggests an optimal number of clusters where within-cluster scatter is reasonably reduced: 2 main clusters. Shallower kink at 3 clusters suggests we could use a 3rd cluster of household favourites.
+
+#### Membership of each cluster?
+
+![Iterative process in *k*-means clustering](Numsense/Numsense_kmc-iteration-process.png)
+
+- **Iterative process**
+    + **Step 0:** Guess where the central points of each cluster are ("pseudo-centres")
+    + **Step 1:** Assign each data-point to its nearest pseudo-centre
+    + **Step 2:** Update location of pseudo-centres to the centre of the respective members
+    + **Step 3:** Repeat step 1 and step 2 until there are no more changes to the location of the centres
+
+### 2.4 Limitations
+
+- Each data point can be a member of only one cluster
+- Clusters are assumed to be sperical (what if the actual shape is an ellipse for example?)
+- Clusters are assumed to be discrete (no overlapping or nesting)
+
+-----
 
 ## 3. Principal Component Analysis
 
