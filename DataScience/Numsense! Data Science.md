@@ -3,8 +3,8 @@
 ## 1. Basics in a Nutshell
 
 - Four key steps in data science study:
-    + Prepare the data (1.1)
-    + Select algorithms to model the data (1.2)
+    + [Prepare the data (1.1)](#11-Data-Preparation)
+    + [Select algorithms to model the data (1.2)](#12-algorithm-selection)
     + Tune algorithm parameters to optimize the models (1.3)
     + Evaluate models based on their accuracy (1.4)
 
@@ -172,10 +172,8 @@ By indentifying common preferences or characteristics, it's possible to sort cus
 ### 2.4 Limitations
 
 - Each data point can be a member of only one cluster
-- Clusters are assumed to be sperical (what if the actual shape is an ellipse for example?)
+- Clusters are assumed to be spherical (what if the actual shape is an ellipse for example?)
 - Clusters are assumed to be discrete (no overlapping or nesting)
-
------
 
 ## 3. Principal Component Analysis
 
