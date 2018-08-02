@@ -2,11 +2,18 @@
 
 This is a running list to add to daily to track my progress.
 
+## 2018
+
+### August
+
 | Date       | Today I learned...                             | Streak |
-|:-----------|:-----------------------------------------------|
-| **2018**   | **~ August ~**                                 |   |
-| Wed&nbsp;01 | ...about **sigmoid functions (logistic function)**, and multiplying **matrices** (_Make Your Own Neural Network_) | 3 |
-| **2018**   | **~ July ~**                                   |   |
-| Tue&nbsp;31     | ...that a **loss** or **cost function** is really a function to describe the difference (error) between a predicted value and a real world value... | 2 |
-|            | ...and that the **learning rate** is actually a fraction that moderates the change in parameters from one training example to the next, so that we don't lose the results from  all the previous training iterations |   |
-| Mon&nbsp;30     | ...how to set up **Github Pages**          | 1 |
+|:-----------|:-----------------------------------------------|   |
+| **W&nbsp;01** | ...about **sigmoid functions (logistic function)**, and multiplying **matrices**, and why it makes so much sense to express inputs and weights as matrices! (_Make Your Own Neural Network_)         | 3 |
+
+### July
+
+| Date       | Today I learned...                             | Streak |
+|:-----------|:-----------------------------------------------|   |
+| **T&nbsp;31**     | ...that a **loss** or **cost function** is really a function to describe the difference (error) between a predicted value and a real world value... | 2 |
+|            | ...and that the **learning rate** is actually a fraction that moderates the change in parameters from one training example to the next, so that we don't lose the results from  all the previous training iterations.  (_Make Your Own Neural Network_) |   |
+| **M&nbsp;30**     | ...how to set up **Github Pages**          | 1 |
