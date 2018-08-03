@@ -8,7 +8,8 @@ This is a running list to add to daily to track my progress.
 
 | Date       | Today I learned...                             | Streak |
 |:-----------|:-----------------------------------------------|   |
-| **T&nbsp;02** | ...about **X** = **I** * **W**, where **X** is the matrix of all the moderated signals in a single layer of a neural network. **I** is the matrix of all the input signals coming from the previous layer (or coming into the input layer), and it's moderated by **W**, the matrix of all the weights between this and the previous layer. After you've calculated that, you apply the sigmoid function to decide whether the signal is boosted enough to be sent to the next layer. Output matrix **O** = sigmoid(**X**) | 4 |
+| **T&nbsp;02** | ...about **X** = **I** * **W**, where **X** is the matrix of all the moderated signals in a single layer of a neural network. **I** is the matrix of all the input signals coming from the previous layer (or coming into the input layer). **I** is moderated by **W**, the matrix of all the weights between this and the previous layer. After you've calculated **X**, you apply the sigmoid activation function to decide whether the signal is boosted enough to be sent to the next layer: output matrix **O** = sigmoid(**X**) | 4 |
+|           | ...and also about **backpropagation**, where an error in the output (as compared to the training data) is used to adjust the weights proportionally, going back layer by layer until all weights have been adjusted. This is how the model is trained on the training data. |  |
 | **W&nbsp;01** | ...about **sigmoid functions (logistic function)**, and multiplying **matrices**, and why it makes so much sense to express inputs and weights as matrices! (_Make Your Own Neural Network_)         | 3 |
 
 ### July
