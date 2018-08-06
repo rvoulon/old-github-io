@@ -8,6 +8,7 @@ This is a running list to add to daily to track my progress.
 
 | Date       | Today I learned...                             | Streak |
 |:-----------|:-----------------------------------------------|   |
+| **S&nbsp;05** | Today I wrote the `train()` method of my `neuralNetwork` class. The last bit of math, where the network learns from errors by updating the weights between the layers, is still fuzzy to me. I've left it like that for now, I need to learn some calculus basics to understand it but wanted to get my hands in the code too badly... Next up: feeding it data to actually train my model! | 7 |
 | **S&nbsp;04** | Today I worked more on the **neural network** I started coding last night before bed. https://github.com/rvoulon/my-first-neural-network | 6 |
 |            | Also bought a keyboard and mouse and set up a new microSD with Nina for her Piper computer. We set up a new Raspbian install and next we want to do actual Python together. |   |
 | **F&nbsp;03** | Today I actually understood something important about **gradient descent**. I'd already seen Andrew Ng's explanation about gradient descent but didn't get the point of it, and didn't understand why you needed it.. Usually gradient descent is explained with a visualization of some equation (with 2 or 3 dimensions), but I never understood why you needed something complicated like gradient descent to get the lowest value of *x* when you can just _point at it in the graph._ Why can't you just simply _solve the equation?_ | 5 |
