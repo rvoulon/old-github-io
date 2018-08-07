@@ -8,6 +8,7 @@ This is a running list to add to daily to track my progress.
 
 | Date       | Today I learned...                             | Streak |
 |:-----------|:-----------------------------------------------|   |
+| **M&nbsp;06** | Today I **trained my model!!** With only 100 datapoints to train it and a hidden layer of only 100 nodes, it guesses right 6 out of 10 times using the test data. Let's see tomorrow if we can improve on that :) `W00t!` | 8 |
 | **S&nbsp;05** | Today I wrote the `train()` method of my `neuralNetwork` class. The last bit of math, where the network learns from errors by updating the weights between the layers, is still fuzzy to me. I've left it like that for now, I need to learn some calculus basics to understand it but wanted to get my hands in the code too badly... Next up: feeding it data to actually train my model! | 7 |
 | **S&nbsp;04** | Today I worked more on the **neural network** I started coding last night before bed. https://github.com/rvoulon/my-first-neural-network | 6 |
 |            | Also bought a keyboard and mouse and set up a new microSD with Nina for her Piper computer. We set up a new Raspbian install and next we want to do actual Python together. |   |
