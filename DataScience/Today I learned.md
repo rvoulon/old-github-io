@@ -8,6 +8,8 @@ This is a running list to add to daily to track my progress.
 
 | Date       | Today I learned...                             | Streak |
 |:-----------|:-----------------------------------------------|   |
+| **T&nbsp;09** | Got a tiny bit further with the **calculus for n00bs** chapter, I'll bring it to bed so that it will count fo realz. And I'll do a commit first. Oh! I learned how to fix the toilet seat back to the toilet after the new cleaner did such a good job that it came off 🚽 | 11 |
+| **W&nbsp;08** | Today I started learning some **calculus** that I need to know to understand the math behind training a neural network. No commit tonight, I fell asleep instead.. | 10 |
 | **T&nbsp;07** | I retrained my model using the **full dataset**, and accuracy jumped from 60% to close to 95% accuracy! After playing with the **number of nodes** and the **learning rate**, as well as adding more **epochs**, I managed an accuracy of 97.35%! That's a 2.65% error rate -- compared with the historical benchmarks here it's very very decent! http://yann.lecun.com/exdb/mnist/ | 9 |
 | **M&nbsp;06** | Today I **trained my model!!** With only 100 datapoints to train it and a hidden layer of only 100 nodes, it guesses right 6 out of 10 times using the test data. Let's see tomorrow if we can improve on that :) `W00t!` | 8 |
 | **S&nbsp;05** | Today I wrote the `train()` method of my `neuralNetwork` class. The last bit of math, where the network learns from errors by updating the weights between the layers, is still fuzzy to me. I've left it like that for now, I need to learn some calculus basics to understand it but wanted to get my hands in the code too badly... Next up: feeding it data to actually train my model! | 7 |
