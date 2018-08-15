@@ -8,6 +8,9 @@ This is a running list to add to daily to track my progress.
 
 | Date       | Today I learned...                             | Streak |
 |:-----------|:-----------------------------------------------|   |
+| **T&nbsp;14** | Back to my sweet **neural net** ❤️ Today I finished my chapter on basic **calculus**. It's still a bit fuzzy to me but it'll help me understand a **partial derivative** (= a **gradient**), how a change in a single weight between two nodes affects the total error of the network. Getting to the meat of gradient descent now. (And I'm allowed to play EXAPUNKS before bed 😝) | 1 |
+| **M&nbsp;13** | **Damn you EXAPUNKS**, I lost my TIL streak because all I want is to play that game 😫 Ok that's it, ***no EXAPUNKS before TIL.*** I'm only allowed to play for as long as I've coded or studied. | 0 |
+| **F&nbsp;10** | Learned more about **assembly language** during our LAB12 session, and when I got home I installed **EXAPUNKS** to do some pretend-assembly in a pretend-1997 distopia (90s-era phreaking zine included, reminiscent of _2600_) | 12 |
 | **T&nbsp;09** | Got a tiny bit further with the **calculus for n00bs** chapter, I'll bring it to bed so that it will count fo realz. And I'll do a commit first. Oh! I learned how to fix the toilet seat back to the toilet after the new cleaner did such a good job that it came off 🚽 | 11 |
 | **W&nbsp;08** | Today I started learning some **calculus** that I need to know to understand the math behind training a neural network. No commit tonight, I fell asleep instead.. | 10 |
 | **T&nbsp;07** | I retrained my model using the **full dataset**, and accuracy jumped from 60% to close to 95% accuracy! After playing with the **number of nodes** and the **learning rate**, as well as adding more **epochs**, I managed an accuracy of 97.35%! That's a 2.65% error rate -- compared with the historical benchmarks here it's very very decent! http://yann.lecun.com/exdb/mnist/ | 9 |
