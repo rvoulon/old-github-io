@@ -8,6 +8,9 @@ This is a running list to add to daily to track my progress.
 
 | Date       | Today I learned...                             | Streak |
 |:-----------|:-----------------------------------------------|   |
+| **W&nbsp;15** | Today I learned that if you roll-your-own neural network and put it up on a server that has an **NVIDIA GPU for machine learning**, it's not magically going to run faster when you train it 🙄 duh. (So I did put it up on **Paperspace**) | 2 |
+| | I found a YouTube video **Learn CUDA in an afternoon** so that sounds promising. With the GPU you can do parallel processing if you need to do the same operation on a whole slew of data. CUDA is built on top of C so I'm not sure how I'm going to make that work in my Python code in a Jupyter Notebook, without using a library... | |
+| | I also got back into the **[Fast.AI course](course.fast.ai)** | |
 | **T&nbsp;14** | Back to my sweet **neural net** ❤️ Today I finished my chapter on basic **calculus**. It's still a bit fuzzy to me but it'll help me understand a **partial derivative** (= a **gradient**), how a change in a single weight between two nodes affects the total error of the network. Getting to the meat of gradient descent now. (And I'm allowed to play EXAPUNKS before bed 😝) | 1 |
 | **M&nbsp;13** | **Damn you EXAPUNKS**, I lost my TIL streak because all I want is to play that game 😫 Ok that's it, ***no EXAPUNKS before TIL.*** I'm only allowed to play for as long as I've coded or studied. | 0 |
 | **F&nbsp;10** | Learned more about **assembly language** during our LAB12 session, and when I got home I installed **EXAPUNKS** to do some pretend-assembly in a pretend-1997 distopia (90s-era phreaking zine included, reminiscent of _2600_) | 12 |
