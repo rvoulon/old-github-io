@@ -1,6 +1,6 @@
 # Learning CUDA and PyCUDA
 
-# *Learn CUDA in an Afternoon*
+## 1. CUDA
 - [*Learn CUDA in an Afternoon* tutorial](www.epcc.ed.ac.uk/online-training/learnCUDA)
     - To get the template files: `wget https://agray3.github.io/files/learnCUDA.tar.gz` (download to a machine with CUDA-enabled NVIDIA GPU)
         + `tar zxvf learnCUDA.tar.gz`
@@ -64,7 +64,7 @@ __global__ void myKernel(int *result) {
 }
 ```
 
-- (Notice that in this and the following examples, we're not returning the calculated value, we're writing it directly to memory, via a pointer we pass as an argument to the function... Is that normal for programming in CUDA?)
+- Notice that in this and the following examples, we're not returning the calculated value, we're writing it directly to memory, via a pointer we pass as an argument to the function.
 - We can launch the kernel by calling the function this way:
 
 ```c
@@ -126,7 +126,7 @@ vectorAdd<<<blocksPerGrid, threadsPerBlock>>>(a, b, c);
 __global__ void matrixAdd(float a[N][N], float b[N][N], float c[N][N]) {
    int j = blockIdx.x * blockDim.x + threadIdx.x;
    int i = blockIdx.y * blockDim.y + threadIdx.y;
-   // careful! we are mapping x to j and y to i. More about that later.
+   // careful! we are mapping x to j and y to i. More about that later (see: memory coalescing)
 
    c[i][j] = a[i][j] + b[i][j];
 }
@@ -199,7 +199,7 @@ cudaThreadSynchronize(); // wait for kernel to finish
 ### Copying host <> device
 - keep data resident on the device for as long as possible during the computation
     + so you may want to port more routines or calculate data from scratch on the device to avoid an extra CPU step
-- Example: 
+- Example in pseudocode: 
 
 ```
 Loop over timesteps
@@ -210,7 +210,7 @@ Loop over timesteps
 End loop over timesteps
 ```
 
-This is called *data sloshing*, moving data back and forth. Instead, port the inexpensive routine to the device and move data copies outside of the loop:
+This is called *data sloshing*, moving data back and forth like that. Instead, port the inexpensive routine to the device and move data copies outside of the loop:
 
 ```
 Copy data from host to device
@@ -221,7 +221,13 @@ End loop over timesteps
 Copy data from device to host
 ```
 
-### Exposing parallelism, and memory latency
+### Parallelism and memory latency
+
+### GPU memory bandwith
+
+### Code branching
 
 
-## Practical Exercise 2: Optimizing a CUDA Application
+
+## 2. PyCUDA
+
