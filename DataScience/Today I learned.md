@@ -4,11 +4,18 @@ This is a running list to add to daily to track my progress.
 
 ## 2018
 
+### September
+
+| Date          | Today I learned...                             | Streak |
+|:--------------|:-----------------------------------------------|--------|
+| **S&nbsp;1**  | | |
+
 ### August
 
-| Date       | Today I learned...                             | Streak |
-|:-----------|:-----------------------------------------------|   |
-| **T&nbsp;30** | Back to CUDA/PyCUDA, to the tune of *Barracuda*: https://www.youtube.com/watch?v=hpkitLUbeEg I'm so happy because **I finally (FINALLY!) managed to get basic CUDA sample code to compile!** I finally managed to tell the GPU to take an array of 400 ones and double each value in it, in parallel! Can't wait to feed it a few matrices from my neural net to chew on... *:insert_waffle_emoji_here:* I think CUDA just really liked the song, and so she was playing nice this evening. | 8 |
+| Date          | Today I learned...                             | Streak |
+|:--------------|:-----------------------------------------------|--------|
+| **F&nbsp;31** | No time for much CUDA today but I did get this book and started reading it: [_Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems_](https://www.amazon.com/dp/B06XNKV5TS/ref=cm_sw_r_cp_api_eJFIBb0AMSAB5) | 9 |
+| **T&nbsp;30** | Back to CUDA/PyCUDA, to the tune of [*Barracuda*](https://www.youtube.com/watch?v=hpkitLUbeEg) I'm so happy because **I finally (FINALLY!) managed to get basic CUDA sample code to compile!** I finally managed to tell the GPU to take an array of 400 ones and double each value in it, in parallel! Can't wait to feed it a few matrices from my neural net to chew on... *:insert_waffle_emoji_here:* I think CUDA just really liked the song, and so she was playing nice this evening. | 8 |
 | **W&nbsp;29** | Yesterday I had to leave PyCUDA with a **compile issue**, so I had a hunch it might be the same issue I was having to get CUDA code to compile the day before... Today I learned that my CUDA/PyCUDA compile issues are caused by an old version (7.5) lingering on the system on Paperspace, even though I installed 9.1, the latest version. I fixed that and now I'm getting pointer errors, hurray! 🎉 Still haven't managed to get any CUDA/PyCUDA sample code to run tho... 🙄 I'm hopeful for tomorrow! 💪🏻 | 7 |
 | **T&nbsp;28** | Today I learned that a bunch of 32 threads is called a **warp**. Also, I started working with **PyCUDA**, a Python wrapper around C-based CUDA. You still need to know CUDA to understand PyCUDA but this way I can actually talk to the GPU in my Python code. (The whole point of the CUDA rabbit hole is so that I can make my neural network learn faster by passing the computationally demanding code to the GPU.) | 6 |
 | **M&nbsp;27** | Yesterday I came back from vacation (no computer!), and today I had to review a lot of the **CUDA** stuff I'd started before going camping. I wrote an exercise to copy data from the CPU memory to the GPU memory, but got a compile error before I had to leave to pick up kiddo. Relearned a few VIM keys to navigate in the code because I was ssh'ed into my remote machine. Got a bit frustrated because I had no fancy IDE with helpful red squiggles to indicate where the compile error is... | 5 |
@@ -37,8 +44,8 @@ This is a running list to add to daily to track my progress.
 
 ### July
 
-| Date       | Today I learned...                             | Streak |
-|:-----------|:-----------------------------------------------|   |
-| **T&nbsp;31**     | ...that a **loss** or **cost function** is really a function to describe the difference (error) between a predicted value and a real world value... | 2 |
-|            | ...and that the **learning rate** is actually a fraction that moderates the change in parameters from one training example to the next, so that we don't lose the results from  all the previous training iterations.  (_Make Your Own Neural Network_) |   |
-| **M&nbsp;30**     | ...how to set up **Github Pages**          | 1 |
+| Date          | Today I learned...                             | Streak |
+|:--------------|:-----------------------------------------------|--------|
+| **T&nbsp;31** | ...that a **loss** or **cost function** is really a function to describe the difference (error) between a predicted value and a real world value... | 2 |
+|               | ...and that the **learning rate** is actually a fraction that moderates the change in parameters from one training example to the next, so that we don't lose the results from  all the previous training iterations.  (_Make Your Own Neural Network_) |   |
+| **M&nbsp;30** | ...how to set up **Github Pages**          | 1 |
