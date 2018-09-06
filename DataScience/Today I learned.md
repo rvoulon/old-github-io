@@ -1,6 +1,6 @@
 # Today I learned...
 
-This is a running list to add to daily to track my progress.
+This is a running list to add to daily, to track my progress.
 
 ## 2018
 
@@ -8,6 +8,9 @@ This is a running list to add to daily to track my progress.
 
 | Date          | Today I learned...                             | Streak |
 |:--------------|:-----------------------------------------------|--------|
+| **W&nbsp;5**  | Today I got started on an *end-to-end machine learning project with scikit-learn*, using ***Hands-On ML*** as a guide. Haven't forgotten that I still haven't finished my neural network with CUDA... Working towards getting some peace and quiet during the daytime so that I can dig my way through it. | 14 |
+|               | Also started contacting a few people to set up meetings with, I'd like to get an internship lined up in a few months. |  |
+|               | Which brings me to the next point: I didn't mention it yesterday, but I worked on a **Master Plan** for the coming months. I want to get to a point where every day I focus on 3 main areas: 1. ML, 2. drawing and 3. gym/run/yoga. Weather from tomorrow onwards should be better, still hot today... |  |
 | **T&nbsp;4**  | Today I learned about **precision** vs **recall**. There is a *precision/recall-tradeoff*. If your model's predictions have a high precision, that means it doesn't have a lot of false positives in the bunch of positive predictions. However, your model may have a high number of false negatives (low recall). The more precision, the less recall. | 13 |
 |               | For example, you will want to make sure that a content filter for kids has a low number of false positives (high precision) so nothing slips through the cracks, even though some of the safe ones don't get past the filter. | |
 |               | On the other hand, if you're airport security and you want to identify potential terrorists, you don't care if you scoop up mostly false positives of grannies carrying handsoap and nail clippers... 🙄 at least your recall is high! |  |
