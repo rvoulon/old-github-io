@@ -1,14 +1,20 @@
 # Today I learned...
 
-This is a running list to add to daily, to track my progress.
+This is a running list to add to daily, to track my progress. It started as a record of things I learned day by day, but has expanded to include anything that counts as progress towards my own learning contract with myself. So that means course material, but also making progress on projects, meeting interesting people over coffee—anything I've set up as an input or output goal as part of my learning contract.
 
 ## 2018
 
 ### September
 
-| Date          | Today I learned...                             | Streak |
+| Date          | Just keep swimming, just keep swimming...      | Streak |
 |:--------------|:-----------------------------------------------|--------|
+| **M&nbsp;24** | 
+| **S&nbsp;23** | Spent the evening finishing the Shopify internship application! Wrote a rambling cover letter and a 3-page cv and sent it in at midnight 🕛🌛🎉 but I did it!  | 2 |
+| **S&nbsp;22** | Spent the evening finishing the Shopify challenge! W00t! 💪🏻 | 1 | 
+| **F&nbsp;21** | Arg, spent all day avoiding work on the Shopify challenge. You know, one of those days where you feel you're doing it all wrong and you think you're better off spending your time learning a new planning tool. Or suddenly every incoming message is super-important to pay attention to... | 0 |
+| **T&nbsp;20** | More networking at Startup Open House, spent the evening at Notman 💥 | 4 |
 | **W&nbsp;19** | Today was networking! I met up with S\_\_ of C\_\_ for an AMA one-on-one session, and then in the evening went to Shopify's Intern Open House. I read a bit more from the _Cookbook_ but no time for actual sitting down to code. S\_\_ suggested I check out **Open AI Gym**. Also, she gave me an idea for a project while we were talking, an unconcious bias detector to detect bias in the dataset that's going to go into an unconcious bias detector... ♻️ | 3 |
+|               | Also worked some more on the Shopify challenge. |   |
 | **T&nbsp;18** | Today I inched closer to making CUDA work with **my\_first\_neural\_network** project using the _Python Parallel Programming Cookbook_ by Giancarlo Zaccone. The last chapter is about PyCUDA, bit dated because old Python version, but it's not a problem for the moment. Also learned/realized through the **Fast.ai** course that there are activation functions other than the sigmoid function, so I listed that in my Master Plan as a feature to work on after CUDA. | 2 |
 | **M&nbsp;17** | *Rebooting streak...* So with Nina being sick 🤮, my ear being infected *again* 🍄👂 (it's been over 3 months off and on like this), Étienne travelling 🛩, and *Project X* blowing up 💣, it's been a bit tough... But today I **1) made a Master Plan** specific for my learning; **2) started on the rest of the Shopify challenge** (using `pandas`); and **3) found an ebook that may very well help me get unstuck** trying to train my neural network using PyCUDA! Some of these Kindle books are amazing, the amount of wisdom they contain for less than $10... | 1 |
 |               | Sunday Nina was feeling better and the team for *Project X* was working hard from our kitchen table. We sat down to draw at *La Finca*. Made good progress on a dreamy cat with flowers on its head. 🐈🌺🌼🌸 |  |
