@@ -8,7 +8,8 @@ This is a running list to add to daily, to track my progress. It started as a re
 
 | Date          | Just keep swimming, just keep swimming...      | Streak |
 |:--------------|:-----------------------------------------------|--------|
-| **M&nbsp;24** | 
+| **T&nbsp;25** | Today I learned that you can use shift-tab in Jupyter Notebook to know the arguments to a method or function. Pressing it twice brings up the documentation. Pressing it three times, ~you're back in Kansas~ a pane with that documentation will slide out. Same thing happens if you put a ? before the thing you want to see the documentation for. If you want to have a peek into the source code to see what it actually does, use ?? instead of ?. 👍🏻 | 4 |
+| **M&nbsp;24** | I learned that there's a smartly conceived algorithm to help you determine the optimal learning rate for your neural network. It will start really small and each iteration it will double. At some point the step size will be so large that it will wildly overshoot. You choose the learning rate just before it starts overshooting. | 3 |
 | **S&nbsp;23** | Spent the evening finishing the Shopify internship application! Wrote a rambling cover letter and a 3-page cv and sent it in at midnight 🕛🌛🎉 but I did it!  | 2 |
 | **S&nbsp;22** | Spent the evening finishing the Shopify challenge! W00t! 💪🏻 | 1 | 
 | **F&nbsp;21** | Arg, spent all day avoiding work on the Shopify challenge. You know, one of those days where you feel you're doing it all wrong and you think you're better off spending your time learning a new planning tool. Or suddenly every incoming message is super-important to pay attention to... | 0 |
