@@ -131,7 +131,7 @@ __global__ void matrixAdd(float a[N][N], float b[N][N], float c[N][N]) {
    c[i][j] = a[i][j] + b[i][j];
 }
 
-int main() { // int?? where is the function returning an int?
+int main() {
     dim3 blocksPerGrid(N/16, N/16, 1);  // (N/16) * (N/16) blocks per grid (2D)
     dim3 threadsPerBlock(16, 16, 1);    // 16 * 16 = 256 threads per block (2D)
 

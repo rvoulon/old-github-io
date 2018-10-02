@@ -4,11 +4,23 @@ This is a running list to add to daily, to track my progress. It started as a re
 
 ## 2018
 
+### October
+
+| Date          | Just keep swimming, just keep swimming...      | Streak |
+|:--------------|:-----------------------------------------------|--------|
+| **M&nbsp;**  | Today something clicked about this line: `idx = threadIdx.x + threadIdx.y * 4` in CUDA, which is part of the kernel, the function with the work that you tell the GPU to do. Index `idx` is a way to address threads with a single value, but those threads are arranged in 2D or 3D blocks (hence the `.x` and `.y`) So I wasn't really getting why multiplying `.y` by 4 and adding it to `.x` would give you a unique index number... I finally got the missing piece of information: the 2D blocks have only 16 threads, and the values of x and y range from 0 to 3. That's why you multiply x by 4, and the indexes are unique. From `(0, 0) -> idx: 0 * 0 = 0` to `(3, 3) -> idx: 3 * 12 = 15` | 10 |
+|               | So, 4 in the example above is `blockDim.x`
+
 ### September
 
 | Date          | Just keep swimming, just keep swimming...      | Streak |
 |:--------------|:-----------------------------------------------|--------|
+| **S&nbsp;30** | More DataCamp practise. | 9 |
+| **S&nbsp;29** | Out and about all day... Practise with the DataCamp app is all I could muster. Otherwise, I'm planning to focus more on *my_first_neural_network* next week. | 8 |
+| **F&nbsp;28** | Worked from a new spot, was able to focus quite well there (but needed to get some non-code stuff out of the way first). It's relatively close to my preferred gym so I've set up a new routine for next week. And ZOMG I got the invite for an interview at S__ a whole 8 hours before I noticed! :) *Do a little dance...* | 7 |
+|               | Installed the DataCamp app so I can practise on the go (or before falling asleep...) and boy did I forget a lot! I’ll keep practising this so I should have a solid base by the time the technical interview comes around, if I get that far... |  |
 | **T&nbsp;27** | For all the desire to avoid distraction, today I had a hard time focusing. Two highlights: 1. Finally finished the Fast.ai week 2 video (it was sooo looong); 2. Someone at Plotly put me in touch with someone at Shopify who I thought at first I didn't know, but when I saw her picture I remembered she was a regular at the coffee & code 2 years ago at WeWork and that I'd bumped into her a few times at Shopify :) I'll meet up with her! | 6 |
+|               | Oh almost forgot! So I asked kiddo about school and she didn't know what to say to all my questions but then I asked if there's something she learned today, and she was explaining the \> and < signs, asking me to write her exercises where she had to use either \> or <. So I did, and to up the challenge, I used a variable. a = 3; a < 5. Ooooh! How about x = 139; x < 39 true or false? So now she can do logic flows, so then I wrote an if-else statement in Python, and then what we did, before she went to bed she wrote it herself on my computer. Her first real program!
 | **W&nbsp;26** | I continued with week 2 of Fast.ai, and then I went to the Coopérathon launch party. I had a blast, the conferences were fantastic! Yoshua Bengio said towards the end of his talk that we need more people going into AI and machine learning, and why having more diversity and inclusion is important. I also felt encouraged that I'd have a place in this field without a University degree, through self-directed learning, we don't need only researchers, we also need people applying the stuff. | 5 |
 |               | In the end I decided not to participate on a project, worried it's just going to be another distraction. Maybe I'd rather team up with a bunch of people I already know and find an idea to work on as a team. |   |
 |               | Also interviewed for the parttime job at C__, but didn't get it—that's ok, more time for learning, less distraction! :) |   |
