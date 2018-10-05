@@ -8,8 +8,13 @@ This is a running list to add to daily, to track my progress. It started as a re
 
 | Date          | Just keep swimming, just keep swimming...      | Streak |
 |:--------------|:-----------------------------------------------|--------|
-| **M&nbsp;**  | Today something clicked about this line: `idx = threadIdx.x + threadIdx.y * 4` in CUDA, which is part of the kernel, the function with the work that you tell the GPU to do. Index `idx` is a way to address threads with a single value, but those threads are arranged in 2D or 3D blocks (hence the `.x` and `.y`) So I wasn't really getting why multiplying `.y` by 4 and adding it to `.x` would give you a unique index number... I finally got the missing piece of information: the 2D blocks have only 16 threads, and the values of x and y range from 0 to 3. That's why you multiply x by 4, and the indexes are unique. From `(0, 0) -> idx: 0 * 0 = 0` to `(3, 3) -> idx: 3 * 12 = 15` | 10 |
-|               | So, 4 in the example above is `blockDim.x`
+| **F&nbsp;05** | Today I sunk my teeth into the beginnings of NLP. Tokenization and good old regex. I'll post my notes to Github pages. Haven't been super good at keeping my commits going every day but at least I haven't gone off track. | 14 |
+|               | This week I've been working from another location and it's been super productive :) I've also met my Fitbit targets because it's a lot further, and the walk there helps me get in the proper mindspace for focused work. |  |
+| **T&nbsp;04** | Today I got far enough ahead with PyCUDA that I wrote a little port from CUDA C++ to Python/PyCUDA of this [introduction to CUDA by NVIDIA](https://devblogs.nvidia.com/even-easier-introduction-cuda/) I'll post it to my github pages soon. | 13 |
+| **W&nbsp;03** | First interview done... I’ll only know in two weeks whether I’m on to the next stage, but at least the good news is that gives me another two weeks to buff up my skills for the technical interview | 12 |
+| **T&nbsp;02** | Today while digging more into thread indexes I learned about **SAXPY**: _Single-precision A * X Plus Y_ It takes as input two vectors of float32s X and Y of N elements, and multiplies each value of X[i] by A and adds it to Y[i]. | 11 |
+|               | I also met up with a friend who works in data science at Shopify and she helped me think about how to prepare for the technical interview, in the hopeful case I get that far... |  |
+| **M&nbsp;01** | Today something clicked about thread indexes and why `idx` here really is a unique index number: `int dx = blockIdx.x * blockDim.x + threadIdx.x` I had to actually write them out to see it... | 10 |
 
 ### September
 
