@@ -120,6 +120,9 @@ vectorAdd<<<blocksPerGrid, threadsPerBlock>>>(a, b, c);
         * `blockIdx.x`: block index unique to each block in the grid
             - (ranges from 0 to (N/256 - 1) in the example)
 
+![Source: https://devblogs.nvidia.com/even-easier-introduction-cuda/cuda_indexing/](Learning-CUDA/cuda_indexing.png)
+
+
 ### Example code: matrix addition (2D)
 
 ```c
