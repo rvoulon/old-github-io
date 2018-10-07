@@ -8,6 +8,7 @@ This is a running list to add to daily, to track my progress. It started as a re
 
 | Date          | Just keep swimming, just keep swimming...      | Streak |
 |:--------------|:-----------------------------------------------|--------|
+| **S&nbsp;06** | Today we made an offer on a house :) Also, I learned about lemmatization, word vectors, the gensim library and LDA visualization. It's 21h and I'm nodding off, going to bed 💤 Tomorrow I'll beat my previous streak record! 💪🏻 | 15 |
 | **F&nbsp;05** | Today I sunk my teeth into the beginnings of NLP. Tokenization and good old regex. I'll post my notes to Github pages. Haven't been super good at keeping my commits going every day but at least I haven't gone off track. | 14 |
 |               | This week I've been working from another location and it's been super productive :) I've also met my Fitbit targets because it's a lot further, and the walk there helps me get in the proper mindspace for focused work. |  |
 | **T&nbsp;04** | Today I got far enough ahead with PyCUDA that I wrote a little port from CUDA C++ to Python/PyCUDA of this [introduction to CUDA by NVIDIA](https://devblogs.nvidia.com/even-easier-introduction-cuda/) I'll post it to my github pages soon. | 13 |
