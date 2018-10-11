@@ -8,6 +8,10 @@ This is a running list to add to daily, to track my progress. It started as a re
 
 | Date          | Just keep swimming, just keep swimming...      | Streak |
 |:--------------|:-----------------------------------------------|--------|
+| **W&nbsp;10** | More statistics. Review of mean / median / mode, and then learned about range / quartile range / box-and-whisker plots / variability / standard deviation | 19 |
+| **T&nbsp;09** | Got started on statistics with *Head-First Statistics* | 18 |
+| **M&nbsp;08** | Today I learned about tf-idf: Term frequency - inverse document frequency | 17 |
+| **S&nbsp;07** | (🏡 Offer on the house was excepted!) Today I learned that in Jupyter Notebook you can use `%run <filename>.py` if you want to run some code without actually loading the code itself in the notebook. The reason I needed to do this is that I'm reading in a lot of text and lists extracted from those texts, and sticking all of that in a variable, and Jupyter Notebook is having trouble having all that text in the code... just putting the variable and the text or list of words in a .py file and run it with `%run` does the trick. *And I beat my last streak record!* | 16 |
 | **S&nbsp;06** | Today we made an offer on a house :) Also, I learned about lemmatization, word vectors, the gensim library and LDA visualization. It's 21h and I'm nodding off, going to bed 💤 Tomorrow I'll beat my previous streak record! 💪🏻 | 15 |
 | **F&nbsp;05** | Today I sunk my teeth into the beginnings of NLP. Tokenization and good old regex. I'll post my notes to Github pages. Haven't been super good at keeping my commits going every day but at least I haven't gone off track. | 14 |
 |               | This week I've been working from another location and it's been super productive :) I've also met my Fitbit targets because it's a lot further, and the walk there helps me get in the proper mindspace for focused work. |  |
