@@ -3,6 +3,7 @@
 ### Courses
 
 - **[DataCamp - Career Track: Data Scientist with Python](https://www.datacamp.com/tracks/data-scientist-with-python)**
+    + **[DataCamp - Natural Language Processing Fundamentals in Python](https://www.datacamp.com/courses/natural-language-processing-fundamentals-in-python)**
 - **[Fast.ai - Making neural nets uncool again](http://course.fast.ai/)**
     + and [Fast.ai LIVE](http://forums.fast.ai/t/fast-ai-live-the-new-version-of-the-international-fellowship/22825) for the updated Fall 2018 course material
 - **[Kaggle Learn](https://www.kaggle.com/learn/overview)**
@@ -22,3 +23,5 @@
 ### Projects
 
 - **[AIY with Google](https://aiyprojects.withgoogle.com/)**
+
+
